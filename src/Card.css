@@ -1,0 +1,51 @@
+* {
+  font-family: monospace;
+}
+.Accordion-header {
+  width: 380px;
+  margin: 30px;
+}
+body {
+  background-color: #4b145b;
+}
+h4 {
+  margin-top: 40px;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.container {
+  background-color: #fff;
+  padding: 10px;
+  width: 470px;
+  margin-top: 100px;
+}
+.Accordion-name {
+  font-size: 17px;
+  color: #102a42;
+  font-weight: bold;
+}
+@media screen and (min-width: 660px) {
+  .container {
+    width: 800px;
+    height: auto;
+    display: flex;
+  }
+  .Accordion-header {
+    margin-left: 40px;
+    width: 400px;
+  }
+  h4 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .Accordion-name {
+    font-size: 17px;
+    color: #102a42;
+    font-weight: bold;
+  }
+  .Accordion-content {
+    font-size: 14px;
+    color: #102a42;
+  }
+}
